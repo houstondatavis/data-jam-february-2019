@@ -31,6 +31,7 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 
 ## Random possible ideas of various degrees of liklihood of getting done in <4 hours
 - Create user interface on <a href="https://beta.observablehq.com/">ObservableHQ</a> that changes parameters quered and generates gallery on ObservableHQ, similar to this gallery generated from the NASA Apod API. https://beta.observablehq.com/@asg017/inverted-nasa-photos note: if you have privacy badger you'll have to turn it off as it thinks any page calling a nasa.gov page that isn't a nasa.gov site is a spam site!
+- Plot acquisitions over time. When does Cleveland Museum of Art get more artworks? How do the types of artwork change over time? 
 - How does ____ of artwork change over time? Can you see changes in colors or levels of contrast?
 - Map artwork provenance with a set of data. Put it on a map. 
 - What features are predictions of artwork size?
