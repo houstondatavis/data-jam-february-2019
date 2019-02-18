@@ -17,7 +17,34 @@ This webpage has general information as well as fields, query parameters, and ex
 ## Important things you might want to know
 1. About half the artworks have a creative commons license and about have don't. You may want to limit your calls to only artworks that have a creative commons licesnse so that way you don't have to worry about a license that precludes... things? An example of quering all the artworks that have the creative commons zero license is `https://openaccess-api.clevelandart.org/api/artworks/?cc0=0`. That will return a json of ~27,000 artworks.
 2. You can combine two queries using a & like so `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1` To get a list of queries see, the Parameters table at http://openaccess-api.clevelandart.org/
-3. 
+3. You can either do a query for a json of artworks or request a json for a specific piece of art. To do the later, you can use <b>either</b> Athena id or accession number. Both return the same result. For example, both `https://openaccess-api.clevelandart.org/api/artworks/130707?indent=1` and `https://openaccess-api.clevelandart.org/api/artworks/1953.424?indent=1` return the same json. One uses the Athena id and the other the accession number for the API call. The syntax is the same, just different numbers used.
+4. Not all the artwork results you'll get back have an image but some do. You can use the `has_image` parameter to limit your search to those that have an image. This looks like `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1`. You won't get back the image yet, however. There are several image files in the returned json. Different ones lead to different sized images. The smallest is `"images":{"web":{"url":`<url you want is here>`}}` as seen below.
+
+"url": "https://clevelandart.org/art/1998.78.14",
+   "images": {
+    "web": {
+     "url": "https://openaccess-cdn.clevelandart.org/1998.78.14/1998.78.14_web.jpg",
+     "filename": "1998.78.14_web.jpg",
+     "filesize": "718224",
+     "width": "956",
+     "height": "893"
+    },
+    "print": {
+     "url": "https://openaccess-cdn.clevelandart.org/1998.78.14/1998.78.14_print.jpg",
+     "filename": "1998.78.14_print.jpg",
+     "filesize": "10933890",
+     "width": "3400",
+     "height": "3177"
+    },
+    "full": {
+     "url": "https://openaccess-cdn.clevelandart.org/1998.78.14/1998.78.14_full.tif",
+     "filename": "1998.78.14_full.tif",
+     "filesize": "77605796",
+     "width": "5260",
+     "height": "4916"
+    }
+   },
+
 
 
 ## Possible ideas
