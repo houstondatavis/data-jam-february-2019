@@ -1,5 +1,5 @@
 # data-jam-february-2019
-## Cleveland Museum of Art API
+### Cleveland Museum of Art API
 
 
 ## Important Links to original dataset information
@@ -12,8 +12,6 @@ The API equivelant of the JSON Provided at the link above is: `https://openacces
 ### The datasets webpage http://openaccess-api.clevelandart.org/
 This webpage has general information as well as fields, query parameters, and examples requests to the API. 
 
-## A smaller data subset to work with in CSV format
-
 ## Important things you might want to know
 1. About _half the artworks have a creative commons license_ and about have don't. You may want to limit your calls to only artworks that have a creative commons licesnse so that way you don't have to worry about a license that precludes... things? An example of quering all the artworks that have the creative commons zero license is `https://openaccess-api.clevelandart.org/api/artworks/?cc0=0`. That will return a json of ~27,000 artworks.
 2. You can *combine two queries* using a & like so `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1` To get a list of queries see, the Parameters table at http://openaccess-api.clevelandart.org/
@@ -21,7 +19,6 @@ This webpage has general information as well as fields, query parameters, and ex
 4. Not all the artwork results you'll get back have an image but some do. You can use the `has_image` parameter to *limit your search to those that have an image*. This looks like `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1`. You won't get back the image yet, however. There are several image files in the returned json. Different ones lead to different sized images. The smallest is `"images":{"web":{"url":`<url you want is here>`}}` as seen below. An example image is https://openaccess-cdn.clevelandart.org/1953.129/1953.129_web.jpg . The individual artwork json that goes with that image is https://openaccess-api.clevelandart.org/api/artworks/1953.129?indent=1 .
 
 MUCH MORE OF THIS TYPE OF INFORMATION CAN BE FOUND AT: http://openaccess-api.clevelandart.org/
-
 
 
 ## Example Google Colab Notebook that calls API and creates a CSV instead of JSON for additional use
