@@ -36,6 +36,8 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 - What features are predictions of artwork size?
 - Can you pull out geographic entities using SpaCy or other NLP tool from descriptions that aren't in provenance category?
 - What are the most common first names of artists in each 50 year period?
+- Use http://scikit-image.org/docs/dev/auto_examples/ to do something?
+- When did high hue values within some subset of the data get most popular, <a href="http://scikit-image.org/docs/dev/auto_examples/color_exposure/plot_rgb_to_hsv.html#sphx-glr-auto-examples-color-exposure-plot-rgb-to-hsv-py">this is a possible starting point</a>.
 - Can you find and visualize all the cats?
 
 ## Twitter handles & hashtags to share your visualizations with
