@@ -29,7 +29,7 @@ MUCH MORE OF THIS TYPE OF INFORMATION CAN BE FOUND AT: http://openaccess-api.cle
 - It is also a good demo for how to call the API in Python and get results back.
 https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 
-## Possible ideas
+## Random possible ideas of various degrees of liklihood of getting done in <4 hours
 - Create user interface on <a href="https://beta.observablehq.com/">ObservableHQ</a> that changes parameters quered and generates gallery on ObservableHQ, similar to this gallery generated from the NASA Apod API. https://beta.observablehq.com/@asg017/inverted-nasa-photos note: if you have privacy badger you'll have to turn it off as it thinks any page calling a nasa.gov page that isn't a nasa.gov site is a spam site!
 - How does ____ of artwork change over time? Can you see changes in colors or levels of contrast?
 - Map artwork provenance with a set of data. Put it on a map. 
@@ -38,6 +38,7 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 - What are the most common first names of artists in each 50 year period?
 - Use http://scikit-image.org/docs/dev/auto_examples/ to do something?
 - When did high hue values within some subset of the data get most popular, <a href="http://scikit-image.org/docs/dev/auto_examples/color_exposure/plot_rgb_to_hsv.html#sphx-glr-auto-examples-color-exposure-plot-rgb-to-hsv-py">this is a possible starting point</a>.
+- Find all the artwork descriptions that share an entity using <a href="https://spacy.io/">SpaCy</a>. 
 - Can you find and visualize all the cats?
 
 ## Twitter handles & hashtags to share your visualizations with
