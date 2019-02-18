@@ -14,6 +14,9 @@ This webpage has general information as well as fields, query parameters, and ex
 
 ## A smaller data subset to work with in CSV format
 
+## Important things you might want to know
+1. About half the artworks have a creative commons license and about have don't. You may want to limit your calls to only artworks that have a creative commons licesnse so that way you don't have to worry about a license that precludes... things? An example of quering all the artworks that have the creative commons zero license is `https://openaccess-api.clevelandart.org/api/artworks/?cc0=0`. That will return a json of ~27,000 artworks.
+
 ## Possible ideas
 
 
