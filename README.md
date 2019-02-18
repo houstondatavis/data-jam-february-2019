@@ -15,7 +15,7 @@ This webpage has general information as well as fields, query parameters, and ex
 ## A smaller data subset to work with in CSV format
 
 ## Important things you might want to know
-1. About *half the artworks have a creative commons license* and about have don't. You may want to limit your calls to only artworks that have a creative commons licesnse so that way you don't have to worry about a license that precludes... things? An example of quering all the artworks that have the creative commons zero license is `https://openaccess-api.clevelandart.org/api/artworks/?cc0=0`. That will return a json of ~27,000 artworks.
+1. About _half the artworks have a creative commons license_ and about have don't. You may want to limit your calls to only artworks that have a creative commons licesnse so that way you don't have to worry about a license that precludes... things? An example of quering all the artworks that have the creative commons zero license is `https://openaccess-api.clevelandart.org/api/artworks/?cc0=0`. That will return a json of ~27,000 artworks.
 2. You can *combine two queries* using a & like so `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1` To get a list of queries see, the Parameters table at http://openaccess-api.clevelandart.org/
 3. You can either do a *query for a json of artworks or request a json for a specific piece of art*. To do the later, you can use <b>either</b> Athena id or accession number. Both return the same result. For example, both `https://openaccess-api.clevelandart.org/api/artworks/130707?indent=1` and `https://openaccess-api.clevelandart.org/api/artworks/1953.424?indent=1` return the same json. One uses the Athena id and the other the accession number for the API call. The syntax is the same, just different numbers used.
 4. Not all the artwork results you'll get back have an image but some do. You can use the `has_image` parameter to *limit your search to those that have an image*. This looks like `https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&department=Textiles&has_image=1`. You won't get back the image yet, however. There are several image files in the returned json. Different ones lead to different sized images. The smallest is `"images":{"web":{"url":`<url you want is here>`}}` as seen below. An example image is https://openaccess-cdn.clevelandart.org/1953.129/1953.129_web.jpg . The individual artwork json that goes with that image is https://openaccess-api.clevelandart.org/api/artworks/1953.129?indent=1 .
@@ -23,9 +23,14 @@ This webpage has general information as well as fields, query parameters, and ex
 MUCH MORE OF THIS TYPE OF INFORMATION CAN BE FOUND AT: http://openaccess-api.clevelandart.org/
 
 
+
+## Example Google Colab Notebook that calls API and creates a CSV instead of JSON for additional use
+- This is a quick way to get smaller CSVs to work with, so you don't have to work with the API directly if you don't want to.
+- It is also a good demo for how to call the API in Python and get results back.
+https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
+
 ## Possible ideas
 - Create user interface on <a href="https://beta.observablehq.com/">ObservableHQ</a> that changes parameters quered and generates gallery on ObservableHQ, similar to this gallery generated from the NASA Apod API. https://beta.observablehq.com/@asg017/inverted-nasa-photos note: if you have privacy badger you'll have to turn it off as it thinks any page calling a nasa.gov page that isn't a nasa.gov site is a spam site!
-
 
 ## Twitter handles & hashtags to share your visualizations with
 
@@ -38,11 +43,6 @@ Do not mislead others or misrepresent the datasets or their source. You must not
 
 Whenever you transform, translate or otherwise modify the dataset, you must make it clear that the resulting information has been modified. If you enrich or otherwise modify the dataset, consider publishing the derived dataset without reuse restrictions. 
 
-## Example Google Colab Notebook that calls API and creates a CSV instead of JSON for additional use
-https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
-
-## Example dataset return:
-Easy to read example returns can be found on http://openaccess-api.clevelandart.org/
 
 
 
