@@ -1,5 +1,5 @@
 # data-jam-february-2019
-Cleveland Museum of Art API
+## Cleveland Museum of Art API
 
 
 ## Important Links to original dataset information
@@ -43,7 +43,9 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 - Can you find and visualize all the cats?
 
 ## Twitter handles & hashtags to share your visualizations with
-
+@OpenGLAM = Global Network helping Galleries, Libraries, Archives, and Museums open their data & content. They are promoting CMA's recently released API for two weeks.
+@janecalexander = Chief Digital Information Officer for The Cleveland Museum of Art (CMA)
+@ClevelandArt = Cleveland Museum of Art
 
 ## Attribution 
 You may wish to attribute or cite The Cleveland Museum of Art CC0 select datasets, especially with respect to research or publication. Attribution is not required, but does support efforts to release other datasets in the future. It also helps to retain source links and reduce “orphaned data.”  
