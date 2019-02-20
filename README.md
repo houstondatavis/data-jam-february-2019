@@ -26,6 +26,10 @@ MUCH MORE OF THIS TYPE OF INFORMATION CAN BE FOUND AT: http://openaccess-api.cle
 - It is also a good demo for how to call the API in Python and get results back.
 https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 
+## Live but not yet announced TsNe visualization of full catalog
+
+http://www.clevelandart.org/art/collection/plot
+
 ## Random possible ideas of various degrees of liklihood of getting done in <4 hours
 - Create user interface on <a href="https://beta.observablehq.com/">ObservableHQ</a> that changes parameters quered and generates gallery on ObservableHQ, similar to this gallery generated from the NASA Apod API. https://beta.observablehq.com/@asg017/inverted-nasa-photos note: if you have privacy badger you'll have to turn it off as it thinks any page calling a nasa.gov page that isn't a nasa.gov site is a spam site!
 - Plot acquisitions over time. When does Cleveland Museum of Art get more artworks? How do the types of artwork change over time? 
@@ -37,6 +41,13 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 - Use http://scikit-image.org/docs/dev/auto_examples/ to do something?
 - When did high hue values within some subset of the data get most popular, <a href="http://scikit-image.org/docs/dev/auto_examples/color_exposure/plot_rgb_to_hsv.html#sphx-glr-auto-examples-color-exposure-plot-rgb-to-hsv-py">this is a possible starting point</a>.
 - Find all the artwork descriptions that share an entity using <a href="https://spacy.io/">SpaCy</a>. 
+- Search for terms in descriptions
+- how has collection attributes and percentages changed over time
+- paths on map of artwork travels via geocoding
+- which pieces are most well traveled?
+- what category is most geographically isolated or dispersed?
+- do descriptions vary in some way that correlates to category or type?
+
 - Can you find and visualize all the cats?
 
 ## Twitter handles & hashtags to share your visualizations with
