@@ -26,6 +26,10 @@ MUCH MORE OF THIS TYPE OF INFORMATION CAN BE FOUND AT: http://openaccess-api.cle
 - It is also a good demo for how to call the API in Python and get results back.
 https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 
+## Example ObservableHQ notebook using the CSV in this repo that has been put in a gist and called from there:
+https://beta.observablehq.com/@justingosses/cleveland-museum-of-art-api-test-yard-2
+Unfortunately the API is set with cross-origin header that stops calling the API from an url different from theirs right now. This was likely an oversight and may or may not have been fixed by time of the data jam.
+
 ## Live but not yet announced TsNe visualization of full catalog
 
 http://www.clevelandart.org/art/collection/plot
