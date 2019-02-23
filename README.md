@@ -76,8 +76,10 @@ Do not mislead others or misrepresent the datasets or their source. You must not
 Whenever you transform, translate or otherwise modify the dataset, you must make it clear that the resulting information has been modified. If you enrich or otherwise modify the dataset, consider publishing the derived dataset without reuse restrictions. 
 
 ## Projects created during the data jam go here:
--
--
+- Find all the artworks with blank in the title, description, or thombstone. 
+   - Uses NLTK to extract entities. Let's you search for dogs for examples. Will run live on the browser       
+   - https://colab.research.google.com/drive/1Xu3ER4KuZZD_mo8BmfaP-xfatizonQ_W
+- 
 -
 - etc.
 
