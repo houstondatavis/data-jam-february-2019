@@ -34,6 +34,10 @@ THANKS TO CMA for changing the CORS headers so we can call their APi from within
 https://colab.research.google.com/drive/1k6dStic3g9ao9239WAGR165_QW6PN41A
 I wonder if you can't programmatically search for artworks that would be better for style transfer. Line drawings seem to be terrible to use. Anything with lots of texture and many colors does better. That's likely why Van Gough's Stary night is such a popular starting point.
 
+## Example ObservableHQ notebook that shows you how to call the API (JavaScript) New
+https://beta.observablehq.com/@justingosses/cleveland-museum-of-art-api-test-yard-1
+
+
 ## Live but not yet announced TsNe visualization of full catalog
 
 http://www.clevelandart.org/art/collection/plot
