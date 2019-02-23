@@ -71,6 +71,11 @@ Do not mislead others or misrepresent the datasets or their source. You must not
 
 Whenever you transform, translate or otherwise modify the dataset, you must make it clear that the resulting information has been modified. If you enrich or otherwise modify the dataset, consider publishing the derived dataset without reuse restrictions. 
 
+## Projects created during the data jam go here:
+-
+-
+-
+- etc.
 
 
 
