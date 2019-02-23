@@ -28,7 +28,11 @@ https://colab.research.google.com/drive/1nBpqLjbPuZxnaotZn9o50yxWUE3nd0f4
 
 ## Example ObservableHQ notebook using the CSV in this repo that has been put in a gist and called from there:
 https://beta.observablehq.com/@justingosses/cleveland-museum-of-art-api-test-yard-2
-Unfortunately the API is set with cross-origin header that stops calling the API from an url different from theirs right now. This was likely an oversight and may or may not have been fixed by time of the data jam.
+THANKS TO CMA for changing the CORS headers so we can call their APi from within any webpage! This demo shows that the earliest and latest age for textiles is pretty consistant across collections except for Pre-Columnian textiles where the error bars on the age are noticible larger.
+
+## Example Google Colab Notebook (Python) that uses neural style transfer. Basic demo ready to go, just substitute in CMA artworks. 
+https://colab.research.google.com/drive/1k6dStic3g9ao9239WAGR165_QW6PN41A
+I wonder if you can't programmatically search for artworks that would be better for style transfer. Line drawings seem to be terrible to use. Anything with lots of texture and many colors does better. That's likely why Van Gough's Stary night is such a popular starting point.
 
 ## Live but not yet announced TsNe visualization of full catalog
 
